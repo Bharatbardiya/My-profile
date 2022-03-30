@@ -10,7 +10,25 @@ body{
     font-family: 'Merriweather', serif;    
     
 }
-
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+    background-color: #2bc4ad;
+    padding: 1rem 1rem;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.navitem{
+    margin: 0;
+    font-weight: 500;
+    padding: 3px 10px;
+}
+.navitem a{
+    text-decoration: none;
+    color: black;
+}
 h2{
     font-size: 2.5rem;
     font-weight: normal;
